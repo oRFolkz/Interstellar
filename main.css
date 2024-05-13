@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    list-style: none;
+    overflow: hidden;
+}
+
+body{
+    background-image: url(./imgs/pexels-eberhardgross-2098428.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40%;
+    margin: auto;
+    color: white;
+}
+
+.header__title {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.header__title__buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1rem;
+}
+
+.header__title__buttons li{
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+}
+
+.header__title__buttons li:hover{
+    border-bottom: 1px solid white;
+}
+
+.section {
+    margin-top: 5rem;
+    height: 50vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.section__container{
+    width: 35%;
+}
+
+.section__container:first-child{
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+.section__container img{
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.section__title {
+    color: white;
+    font-size: 3rem;
+}
+
+.section__text {
+    width: 500px;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.section__bullets {
+    width: 500px;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.devices{
+    background-color: transparent;
+}
+
+.devices__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.devices__container__item{
+    width: 400px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+.devices__container__item h4{
+    color: white;
+}
+
+.devices__container__item img{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.devices__container__item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
